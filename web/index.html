@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>Twitter</title>
+</head>
+<body>
+    
+
+    <div>
+        <form id="twitter_form">
+
+            <label>Tweet:</label>
+            <fieldset class="field_textArea">
+                <textarea name="tweet_text" id="tweet_text_area" cols="30" rows="10"></textarea>
+                
+            </fieldset>
+            <br>
+            <button>Realizar tweet</button>
+        </form>
+            
+    </div>
+    <script src="./scripts/index.js"></script>
+
+
+    <h2>Tweets:</h2>
+    
+    <br>
+
+    <div>
+         <table border="2" id="table_tweets" class="table_class">
+            <caption>Stream de los Tweets</caption>
+            <tr>
+                <th>Mensaje del tweet</th>
+                <th>Año</th>
+                <th>Mes</th>
+                <th>Dia</th>
+                <th>Hora</th>
+                <th>Minutos</th>
+                <th>Segundos</th>
+            </tr>
+            <tbody id="table_body"></tbody>
+         </table>
+        
+    </div>
+
+</body>
+</html>
